@@ -12,7 +12,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Your Logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,29 +37,8 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container  pt-5 mt-5 ">
-      <h1 class="display-4 ">Contact us</h1>
-      <p class="">Get in touch with us</p>
-
-      <form action="index.php" method="post">
-        <input type="hidden" name="section" value="contact">
-        <input type="hidden" name="action" value="submit">
-
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" class="form-control" name="name" placeholder="Enter your name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" name="email" placeholder="Enter your email">
-        </div>
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea class="form-control" name="message" rows="5" placeholder="Enter your message"></textarea>
-        </div>
-        <div class="pt-2 form-group">
-          <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
+      <h1 class="display-4 ">Thank you for contacting us</h1>
+      <p class="">We will get get back to you as soon as possible</p>
     </div>
   </div>
 
